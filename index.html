@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="img/star1.png" type="image/x-icon" />
+    <title>Space love</title>
+  </head>
+  <body>
+    <main>
+      <div class="overlay">
+        <div class="container">
+          <div class="overlay__content">
+            <h1 class="title">
+              If my girlfriend and I <br />
+              were in space...
+            </h1>
+            <h2 class="subtitle">She loves the Moon</h2>
+            <h3 class="text">And I love HER and pizza</h3>
+          </div>
+          <img src="img/moon.png" alt="moon" class="moon" />
+          <img src="img/pizza.png" alt="pizza" class="pizza" />
+        </div>
+      </div>
+      <div id="scene">
+        <div class="layer" data-depth="0.2">
+          <img class="planet3" src="img/planet3.png" alt="planet" />
+        </div>
+
+        LAYERS
+        <div class="layer" data-depth="0.03">
+          <img class="layer2" src="img/layer2.png" alt="layer" />
+        </div>
+        <div class="layer" data-depth="0.05">
+          <img class="layer3" src="img/layer3.png" alt="layer" />
+        </div>
+        <div class="layer" data-depth="0.03">
+          <img class="layer5" src="img/layer5.png" alt="layer" />
+        </div>
+        <div class="layer" data-depth="0.06">
+          <img class="layer6" src="img/layer6.png" alt="layer" />
+        </div>
+        <div class="layer" data-depth-y="0.09">
+          <img class="rocket" src="img/rocket.png" alt="rocket" />
+        </div>
+
+        <!-- PLANETS -->
+        <div class="layer" data-depth-y="0.07">
+          <img class="planet1" src="img/planet1.png" alt="planet" />
+        </div>
+        <div class="layer" data-depth-y="0.04">
+          <img class="planet2" src="img/planet2.png" alt="planet" />
+        </div>
+        <div class="layer" data-depth="0.2">
+          <img class="planet4" src="img/planet4.png" alt="planet" />
+        </div>
+
+        <!-- ASTRONAUT -->
+        <div class="layer" data-depth="0.4">
+          <img class="astronaut1" src="img/astronaut1.png" alt="astronaut" />
+        </div>
+        <div class="layer" data-depth-y="0.4">
+          <img class="astronaut2" src="img/astronaut2.png" alt="astronaut" />
+        </div>
+
+        <!-- STARS -->
+        <div class="layer" data-depth="0.13">
+          <img class="star1 big-star" src="img/star1.png" alt="star" />
+        </div>
+        <div class="layer" data-depth="0.15">
+          <img class="star2 big-star" src="img/star2.png" alt="star" />
+        </div>
+        <div class="layer" data-depth="0.1">
+          <img class="star3 big-star" src="img/star3.png" alt="star" />
+        </div>
+        <div class="layer" data-depth="0.18">
+          <img class="star4 small-star" src="img/star4.png" alt="star" />
+        </div>
+        <div class="layer" data-depth="0.08">
+          <img class="star5 small-star" src="img/star5.png" alt="star" />
+        </div>
+        <div class="layer" data-depth="0.11">
+          <img class="star6 big-star" src="img/star1.png" alt="star" />
+        </div>
+        <div class="layer" data-depth="0.17">
+          <img class="star7 small-star" src="img/star4.png" alt="star" />
+        </div>
+        <div class="layer" data-depth="0.13">
+          <img class="star8 small-star" src="img/star5.png" alt="star" />
+        </div>
+        <div class="layer" data-depth="0.1">
+          <img class="star9 small-star" src="img/star4.png" alt="star" />
+        </div>
+        <div class="layer" data-depth="0.05">
+          <img class="star10 small-star" src="img/star5.png" alt="star" />
+        </div>
+        <div class="layer" data-depth="0.13">
+          <img class="star11 big-star" src="img/star3.png" alt="star" />
+        </div>
+        <div class="layer" data-depth="0.11">
+          <img class="star12 small-star" src="img/star5.png" alt="star" />
+        </div>
+      </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script>
+      const scene = document.getElementById('scene');
+      const parallaxInstance = new Parallax(scene);
+    </script>
+  </body>
+</html>
