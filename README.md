@@ -1,4 +1,4 @@
-# Web site for my girlfriend
+# Web site for my gf
 
 Recomended view on notebook.<br>
 GitHub Pages link:<br>
