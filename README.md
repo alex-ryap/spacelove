@@ -1,4 +1,4 @@
-# Web site for my girlfriend - Daria Subbotina
+# Web site for my girlfriend
 
 Recomended view on notebook.<br>
 GitHub Pages link:<br>
